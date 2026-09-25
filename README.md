@@ -99,6 +99,9 @@ chmod +x Anilili_1.0.1_amd64.AppImage
 
 # Launch Anilili
 ./Anilili_1.0.1_amd64.AppImage
+
+# Note for Wayland users (Fedora/Niri/Sway/Hyprland) if EGL display error occurs:
+LD_PRELOAD=/usr/lib64/libwayland-client.so ./Anilili_1.0.1_amd64.AppImage
 ```
 
 ### RPM (Fedora, RHEL, openSUSE)
