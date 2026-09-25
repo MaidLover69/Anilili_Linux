@@ -1,0 +1,27 @@
+pub mod anilist;
+pub mod animethemes;
+pub mod auth;
+pub mod downloads;
+pub mod library;
+pub mod local_scanner;
+pub mod mal;
+pub mod player;
+pub mod playlists;
+pub mod providers;
+pub mod schedule;
+pub mod settings;
+pub mod updates;
+
+pub use anilist::*;
+pub use animethemes::*;
+pub use auth::*;
+pub use downloads::*;
+pub use library::*;
+pub use local_scanner::*;
+pub use mal::*;
+pub use player::*;
+pub use playlists::*;
+pub use providers::*;
+pub use schedule::*;
+pub use settings::*;
+pub use updates::*;
