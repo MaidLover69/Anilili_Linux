@@ -22,7 +22,6 @@ __pycache__/
 *.egg-info/
 build/
 develop-eggs/
-downloads/
 eggs/
 .eggs/
 lib/
